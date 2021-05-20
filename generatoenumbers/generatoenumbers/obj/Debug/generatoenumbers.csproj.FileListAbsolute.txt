@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\generatoenumbers\generatoenumbers\bin\Debug\generatoenumbers.exe.config
+C:\Users\User\source\repos\generatoenumbers\generatoenumbers\bin\Debug\generatoenumbers.exe
+C:\Users\User\source\repos\generatoenumbers\generatoenumbers\bin\Debug\generatoenumbers.pdb
+C:\Users\User\source\repos\generatoenumbers\generatoenumbers\obj\Debug\generatoenumbers.csprojAssemblyReference.cache
+C:\Users\User\source\repos\generatoenumbers\generatoenumbers\obj\Debug\generatoenumbers.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\generatoenumbers\generatoenumbers\obj\Debug\generatoenumbers.exe
+C:\Users\User\source\repos\generatoenumbers\generatoenumbers\obj\Debug\generatoenumbers.pdb
