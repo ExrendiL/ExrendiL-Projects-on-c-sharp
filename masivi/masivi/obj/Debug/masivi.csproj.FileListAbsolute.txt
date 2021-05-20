@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\masivi\masivi\bin\Debug\masivi.exe.config
+C:\Users\User\source\repos\masivi\masivi\bin\Debug\masivi.exe
+C:\Users\User\source\repos\masivi\masivi\bin\Debug\masivi.pdb
+C:\Users\User\source\repos\masivi\masivi\obj\Debug\masivi.csprojAssemblyReference.cache
+C:\Users\User\source\repos\masivi\masivi\obj\Debug\masivi.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\masivi\masivi\obj\Debug\masivi.exe
+C:\Users\User\source\repos\masivi\masivi\obj\Debug\masivi.pdb
