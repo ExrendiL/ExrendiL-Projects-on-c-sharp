@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\SimpleTextEditor\bin\Release\WpfApp3.exe.config
+C:\Users\User\source\repos\SimpleTextEditor\bin\Release\WpfApp3.exe
+C:\Users\User\source\repos\SimpleTextEditor\bin\Release\WpfApp3.pdb
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\MainWindow.g.cs
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\App.g.cs
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\WpfApp3_MarkupCompile.cache
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\WpfApp3_MarkupCompile.lref
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\MainWindow.baml
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\WpfApp3.g.resources
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\WpfApp3.Properties.Resources.resources
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\WpfApp3.csproj.GenerateResource.cache
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\WpfApp3.exe
+C:\Users\User\source\repos\SimpleTextEditor\obj\Release\WpfApp3.pdb

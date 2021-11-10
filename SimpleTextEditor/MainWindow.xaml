@@ -1,0 +1,73 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize" WindowState="Normal">
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem x:Name="menuFile" Header="File" >
+                <MenuItem x:Name="creteFile" Header="Create new file" Click="creteFile_Click">
+                    <MenuItem.Icon >
+                        <Image Source="./Res/cnf.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="opFile" Header="Open file" Click="opFile_Click">
+                    <MenuItem.Icon >
+                        <Image Source="./Res/op.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="saveFile" Header="Save file" Click="saveFile_Click">
+                    <MenuItem.Icon >
+                        <Image Source="./Res/sf.png"/>
+                    </MenuItem.Icon>
+                    
+                </MenuItem>
+                <MenuItem x:Name="exit" Header="Exit" Click="exit_Click">
+                    <MenuItem.Icon >
+                        <Image Source="./Res/ex.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="menuEdit" Header="Edit" >
+                <MenuItem x:Name="chooseFont" Header="Fonts" >
+                    <MenuItem.Icon >
+                        <Image Source="./Res/f.png"/>
+                    </MenuItem.Icon>
+                    
+                    <MenuItem x:Name="font1" Header="Times New Roman font" IsCheckable="True" StaysOpenOnClick="True" Click="font1_Click">
+                        
+                    </MenuItem>
+                    <MenuItem x:Name="font2" Header="Verdana" IsCheckable="True" StaysOpenOnClick="True" Click="font2_Click">
+
+                    </MenuItem>
+                </MenuItem>
+            </MenuItem>
+          
+        </Menu>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button x:Name="savebutt" ToolTip="Save File" Click="saveFile_Click">
+                    <Image Source="./Res/sf.png" Width="17" Height="17"/>
+                </Button>
+                <Button x:Name="opbutt" ToolTip="Save File" Click="opFile_Click">
+                    <Image Source="./Res/op.png" Width="17" Height="17"/>
+                </Button>
+                <Label> Size of font: </Label>
+                <ComboBox x:Name="selectFontSize" SelectionChanged="selectFontSize_SelectionChanged" >
+                    <ComboBoxItem>10</ComboBoxItem>
+                    <ComboBoxItem IsSelected="True">14</ComboBoxItem>
+                    <ComboBoxItem>16</ComboBoxItem>
+                    <ComboBoxItem>20</ComboBoxItem>
+                    <ComboBoxItem>32</ComboBoxItem>
+                    <ComboBoxItem>40</ComboBoxItem>
+                </ComboBox>
+            </ToolBar>
+        </ToolBarTray>
+        <TextBox x:Name="tb" Margin="0,34,0,1" Width="778" FontSize="14"/>
+    </DockPanel>
+        
+</Window>
